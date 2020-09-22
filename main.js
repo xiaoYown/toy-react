@@ -123,6 +123,10 @@ class Game extends Component {
   }
 }
 
+// 打印 vdom
+let game = <Game />
+console.log(game.vdom)
+
 // ========================================
 
 render(<Game />, document.getElementById("root"));
